@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.home {
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 0px auto;
+}
+
+.home>div {
+    margin: 75px 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+    /* Couleur de la poignée de défilement */
+    border-radius: 6px;
+    /* Bord arrondi de la poignée de défilement */
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: none;
+    /* Couleur de la piste de défilement */
+    margin: 50px 0px;
+}
+
+.Vibes-section {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.sexe-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.men-section,
+.women-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.men-section h1,
+.women-section h1 {
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}

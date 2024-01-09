@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: black;
+    background-size: cover;
+}
